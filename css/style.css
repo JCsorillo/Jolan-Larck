@@ -30,6 +30,10 @@ html {
     .btn-1, .btn-2 {
         width: 100%; /* Full width buttons */
     }
+    
+    .img-box img {
+        display: none; /* Hide the image on mobile */
+    }
 }
 
 
