@@ -360,6 +360,7 @@ span{
         display: none; /* Hide navbar by default on mobile */
         flex-direction: column; /* Stack items vertically */
         width: 100%;
+        text-align: center;
         background: rgba(0, 0, 0, 0.8);
         position: absolute;
         top: 100%;
@@ -384,7 +385,7 @@ span{
 .dropbtn {
     padding: 15px 28px;
     width: 100%;
-    background-color: orangered;
+    background-color: orange;
     color: white;
     border: 2px solid black;
     border-radius: 8px;
