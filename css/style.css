@@ -390,7 +390,7 @@ span{
 .dropbtn {
     padding: 15px 28px;
     width: 95%;
-    background-color: orange;
+    background-color: orangered;
     color: white;
     border: 2px solid black;
     border-radius: 8px;
@@ -421,7 +421,7 @@ span{
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-    background-color: orangered;
+    background-color: goldenrod;
     color: white;
 }
 
@@ -433,7 +433,7 @@ span{
 /* Change button color on hover */
 .dropdown:hover .dropbtn {
     background-color: white;
-    color: orangered;
+    color: red;
 }
 
 
