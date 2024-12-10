@@ -151,6 +151,7 @@ span{
     display: flex;
     gap: 2em;
 }
+
 .btn-1{
     padding: 15px 28px;
     width: 95%;
@@ -421,7 +422,7 @@ span{
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-    background-color: goldenrod;
+    background-color: orangered;
     color: white;
 }
 
@@ -433,7 +434,7 @@ span{
 /* Change button color on hover */
 .dropdown:hover .dropbtn {
     background-color: white;
-    color: red;
+    color: black;
 }
 
 
