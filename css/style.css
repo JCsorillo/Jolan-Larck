@@ -147,13 +147,13 @@ span{
     margin: 25px 0 30px;
 }
 .btn-box{
-    width: 345px;
+    width: 350px;
     display: flex;
     gap: 2em;
 }
 .btn-1{
     padding: 15px 28px;
-    width: 95%;
+    width: 100%;
     background-color: black;
     color: white;
     border: 2px solid transparent;
@@ -204,7 +204,7 @@ span{
 }
 .btn-2:hover{
     background-color: white;
-    color: orangered;
+    color: red;
 }
 
 /* IMG */
@@ -495,4 +495,14 @@ span{
 .bullets {
     list-style-type: disc; /* This ensures that bullets are displayed */
     padding-left: 20px; /* Add some padding to the left for bullets */
+}
+
+/* h4 a */
+h4 a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use the inherited color from the parent element */
+}
+
+h4 a:hover {
+    color: orangered; /* Change to your desired hover color */
 }
