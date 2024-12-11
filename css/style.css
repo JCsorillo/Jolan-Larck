@@ -270,6 +270,25 @@ span{
     font-weight: 600;
 }
 
+.about-contents h1{
+    text-align: left;
+    color:white;
+    font-size: 42px;
+}
+.about-contents h2{
+    font-size: 62px;
+    color: white;
+}
+.about-contents p{
+    color: white;
+    font-size: 20px;
+    margin: 2em 0 3em;
+}
+.about-contents p a{
+    color: white;
+    text-decoration: underline;
+    font-weight: 600;
+}
 /* FOOTER */
 .footer{
     position: relative;
