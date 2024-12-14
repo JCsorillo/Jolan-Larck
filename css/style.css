@@ -153,7 +153,7 @@ span{
 }
 
 .btn-1{
-    padding: 15px 28px;
+    padding: 15px 30px;
     width: 95%;
     background-color: black;
     color: white;
@@ -176,6 +176,11 @@ span{
 .btn-1 a{
     text-decoration: none;
     color: white;
+        padding: 10px 15px; /* Add padding to increase touch target size */
+    display: inline-block; /* Ensure the link behaves like a block element */
+    margin: 10px; /* Add margin for spacing between elements */
+    text-align: center; /* Center the text */
+    font-size: 16px; /* Ensure the font size is readable */
 }
 
 .btn-1 a:hover{
@@ -185,7 +190,7 @@ span{
 }
 .btn-2{
     padding: 15px 28px;
-    background-color: orangered;
+    background-color: #c0392b;
     color: white;
     border: 2px solid black;
     border-radius: 8px;
@@ -205,7 +210,7 @@ span{
 }
 .btn-2:hover{
     background-color: white;
-    color: red;
+    color: #e74c3c;
 }
 
 /* IMG */
@@ -270,8 +275,9 @@ span{
     font-weight: 600;
 }
 
+
 .about-contents h1{
-    text-align: left;
+    text-align: center;
     color:white;
     font-size: 42px;
 }
@@ -289,6 +295,7 @@ span{
     text-decoration: underline;
     font-weight: 600;
 }
+
 
 /* FOOTER IMAGE ON ABOUT */
 .instagram{
@@ -487,7 +494,7 @@ span{
 .dropbtn {
     padding: 15px 28px;
     width: 95%;
-    background-color: red;
+    background-color: #c0392b;
     color: white;
     border: 1px solid black;
     border-radius: 8px;
@@ -497,7 +504,9 @@ span{
     cursor: pointer;
     transition: 0.3s ease;
 }
-
+.dropbtn:hover {
+    background-color: #e74c3c; /* Lighter red on hover */
+}
 /* Dropdown content (hidden by default) */
 .dropdown-content {
     display: none;
@@ -558,7 +567,7 @@ span{
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center items horizontally */
     text-align: center; /* Center text */
-    max-width: 800px; /* Set a max width for the container */
+    max-width: 1000px; /* Set a max width for the container */
     margin: 0 auto; /* Center the container */
     padding: 20px; /* Add some padding */
     background-color: white; /* Background color for the container */
@@ -602,4 +611,25 @@ span{
 
 .para a:hover {
     color: orangered; /* Change to your desired hover color */
+}
+
+/* FAQ */
+.faq {
+    background-color: black; /* Light background for contrast */
+    padding: 20px;
+    text-align: center;
+}
+
+.faq h2 {
+    text-align: center;
+    color: white;
+}
+
+.faq h3 {
+    color: #c0392b; /* Change to your preferred color */
+}
+
+.faq p {
+    color: whitesmoke;
+    line-height: 1.6;
 }
