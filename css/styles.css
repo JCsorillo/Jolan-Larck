@@ -4216,3 +4216,63 @@ td:last-child {
         right: -2rem;
     }
 }
+
+/* NISU PART */
+.nisu-section {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text */
+    padding: 20px; /* Add some padding if needed */
+    margin-top: 100px;
+}
+
+.nisu-section h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 2.5em; /* Adjust font size as needed */
+}
+
+.nisu-section h2 {
+    margin-top: 10px; /* Add some space between h1 and h2 */
+    font-size: 1.5em; /* Adjust font size as needed */
+}
+.container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text */
+    max-width: 1000px; /* Set a max width for the container */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add some padding */
+    background-color: white; /* Background color for the container */
+    border: 1px solid #ddd; /* Optional: Add a border */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+    margin-bottom: 20px; /* Space between containers */
+}
+
+.content-section {
+    display: flex;
+    flex-direction: column; /* Stack containers vertically */
+    align-items: center; /* Center containers horizontally */
+    padding: 20px; /* Add some padding */
+}
+
+.about-nisu {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text */
+    padding: 20px; /* Add some padding */
+    margin: 20px auto; /* Center the section with auto margins */
+    max-width: 800px; /* Set a max width for the section */
+    background-color: white; /* Optional: Background color for the section */
+    border: 1px solid #ddd; /* Optional: Add a border */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+}
+
+.bullets {
+    list-style-type: disc; /* This ensures that bullets are displayed */
+    padding-left: 20px; /* Add some padding to the left for bullets */
+}
