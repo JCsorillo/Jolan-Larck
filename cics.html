@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="The CICS - College of Information and Computing Studies at NISU - Northern Iloilo State University , offering programs in Computer Science and Information Technology, aimed at developing skilled professionals in the IT industry, CS Industry and LIS Industry.">
         <meta name="keywords" content="CICS, College of Information and Computing Studies, Northern Iloilo State University, NISU, Computer Science, Information Technology, IT education, software development, ICT research, academic programs, Estancia, Philippines">
-        <meta name="google-site-verification" content="google-site-verification=r7_W-v3xFrR66Iah259Arl070FUsUhZscrgujMpzIWA">
+        <meta name="google-site-verification" content="google-site-verification=7jUbWUeSWiC-hlNPndTyGzZZxZpVmZKuSPXuNOEky3Y">
         <meta name="author" content="Jolan Clark Sorillo">
         <meta name="robots" content="index, follow">
         
@@ -25,11 +25,17 @@
     <meta name="twitter:title" content="CICS - College of Information and Computing Studies">
     <meta name="twitter:description" content="The CICS - College of Information and Computing Studies at NISU, offering programs in Computer Science and Information Technology, aimed at developing skilled professionals in the IT industry.">
     <meta name="twitter:image" content="https://jolanclarksorillo.site/img/intro-bg.webp">
-    <meta name="twitter:site" content="@jolan_clar">
+    <meta name="twitter:site" content="@jolan_clark">
+
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
 
 
-        <link rel="stylesheet" href="css/style.css">
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/nisu.css">
+        <link href='css/vendor.css' rel='stylesheet'>
 
          <!-- favicons
     ================================================== -->
@@ -37,7 +43,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
-    <link rel="canonical" href="https://jolanclarksorillo.site/nisu.html">
+    <link rel="canonical" href="https://nisucicsjolanclarksorillo.site/cics.html">
 
     <script type="application/ld+json">
         {
@@ -61,31 +67,55 @@
 
     </head>
     <body>
-        <nav class="header">
-            <div class="header">
-                <div class="logo"><a href="index.html" class="logo"><span>Jo</span>lan's</a> Portfolio</div>
-                <div class="navbar">
-                    <a href="index.html" class="active">Home</a>
-                    <a href="about.html" class="active">About</a>
-                    <a href="nisu.html" class="active">NISU</a>
-                    <a href="cics.html" class="active">CICS</a>
-<a href="mailto:sorillojolanclark@gmail.com" class="active">Message</a>
-                </div>
+      <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
 
-                
-                <div class="hamburger" onclick="toggleMenu()" aria-label="Toggle Navigation Menu">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
-                </div>
-            </div>
-        </nav>
-        <header class="nisu-section" itemscope itemtype="https://schema.org/SubOrganization">
+
+    <!-- page wrap
+    ================================================== -->
+    <div id="page" class="s-pagewrap">
+
+
+        <!-- # site header 
+        ================================================== -->
+        <header class="s-header">
+            <div class="row s-header__inner">
+
+                <div class="s-header__block">
+                    <div class="s-header__logo">
+                        <a class="logo" href="index.html">
+                            J.C. Sorillo - NISU | CICS
+                        </a>
+                    </div>
+
+                    <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+                </div> <!-- end s-header__block -->
+
+                <nav class="s-header__nav">    
+                    <ul class="s-header__menu-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="current"><a  href="nisu.html">NISU</a></li>
+                        <li><a  href="cics.html">CICS</a></li>           
+                        <li><a class="smoothscroll" href="#footer">Contact</a></li>
+                    </ul> <!-- s-header__menu-links -->    
+                </nav> <!-- end s-header__nav -->
+
+            </div> <!-- end s-header__inner -->
+        </header> <!-- end s-header -->
+
+        <section class="nisu-section" itemscope itemtype="https://schema.org/SubOrganization">
             <h1 itemprop="name">Welcome to <a href="https://www.nisu.edu.ph/index.php/academics/college-of-information-and-computing-studies">CICS</a> <br>
 <span>College of Information and Computing Studies</span></h1>
 <h2>About CICS</h2>
 <p itemprop="description">The CICS at NISU offers programs in Computer Science, Information Technology and Information Science, aimed at developing skilled professionals in the IT industry.</p>
-        </header>
+        </section>
 
         <section class="content-section">
             <h2><span>Frequently Asked Questions</span></h2>
@@ -313,47 +343,102 @@
         </section>
 
 
+        <!-- # footer 
+        ================================================== -->
+        <footer id="footer" class="s-footer target-section">
 
-        <footer class="footer">
+            <div class="row">
+                <div class="column lg-12">
+                    <div class="section-header light-on-dark" data-num="02">
+                        <h2 class="text-display-title">Get In Touch.</h2>
+                    </div> <!-- end section-header -->
+                
 
+            <div class="row s-footer__content">
+
+                <div class="column xl-6 md-12 s-footer__block s-footer__about">                    
+                    <p class="attention-getter">
+                        Hey there! I'm always up for connecting with cool people. Want to chat? Or maybe you just want to say hello? Either way, feel free to shoot me a message or follow me on social media. Let's make some awesome connections!
+
+                    </p>               
+                </div> <!-- end section-footer__about -->
+
+                <div class="column xl-6 md-12 s-footer__block s-footer__site-links">
+                    <div class="row">
+                        <div class="column xl-4 lg-5 md-6 tab-12">
+                            <h5>Follow Me</h5>
+                            <ul class="link-list">
+                                <li><a href="https://www.facebook.com/larck.sorillo">Facebook</a></li>
+                                <li><a href="https://x.com/jolan_clark">X</a></li>
+                                <li><a href="https://www.instagram.com/larck.sorillo/?fbclid=IwY2xjawGgN6JleHRuA2FlbQIxMAABHT_AghfAYM51zMtQOZomHaopr66b1LKywsstMokXMjQwS298MrA8CLxiag_aem_Eoaq8CXvqrXWGV9-m4R6kQ">Instagram</a></li>
+                            </ul>
+                        </div>
+                        <div class="column xl-6 md-6 tab-12">
+                            <h5>Links</h5>
+                            <ul class="link-list">
+                                <li><a href="https://www.nisu.edu.ph">Northern Iloilo State University</a></li>
+                                <li><a href="https://www.nisu.edu.ph/index.php/academics/college-of-information-and-computing-studies">College of Information and Computing Studies</a></li>
+                        </div>
+                    </div>                    
+                </div> <!-- end section-footer__site-links -->
+
+            </div> <!-- end section-footer__content -->
+
+
+            <div class="row s-footer__buttons">
+               
+                <div class="column xl-6 tab-12">
+                    <a href="mailto:sorillolarck@gmail.com" class="btn btn--primary btn--large u-fullwidth">Message Me</a>
+                </div>
+          
+            </div> <!-- end section-footer__buttons -->              
             
-            <div class="social"> <h3>Social Media</h3> <br>
-                <a href="https://www.facebook.com/larck.sorillo/" title="Facebook"><i class='bx bxl-facebook-circle'></i></a>
-                <a href="https://www.instagram.com/larck.sorillo/" title="Instagram"><i class='bx bxl-instagram'></i></a>
-                <a href="https://x.com/jolan_clark" title="Twiiter/X"><i class='bx bxl-twitter'></i></a>
-                <a href="https://ph.pinterest.com/jolanclark/" title="Pinterest"><i class='bx bxl-pinterest'></i></a>
-                <a href="https://www.linkedin.com/in/jolan-clark-sorillo-011197256/?originalSubdomain=ph" title="LinkedIn"><i class='bx bxl-linkedin-square'></i></a>
-                <a href="https://github.com/JCsorillo" title="GitHub"><i class='bx bxl-github'></i></a>
-                <a href="https://www.youtube.com/@jcplayz3756" title="YouTube"><i class='bx bxl-youtube'></i></a>
-            </div>
+            <div class="row s-footer__bottom">
+                
+            
+
+                <div class="column xl-6 lg-12">
+                    <p class="ss-copyright">
+                        <span>© Copyright Jolan Clark Sorillo 2024</span> 
+                    </p>
+                </div>
+
+            </div> <!-- end section-footer__bottom -->          
+
+            <div class="ss-go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top">                 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5.536 21.886a1.004 1.004 0 0 0 1.033-.064l13-9a1 1 0 0 0 0-1.644l-13-9A1 1 0 0 0 5 3v18a1 1 0 0 0 .536.886z"></path></svg>
+                </a>                                
+                <span>Back To Top</span>   
+            </div> <!-- end ss-go-top -->
+            
+        </footer> <!-- end s-footer -->
+
+    </div> <!-- end page-wrap -->
 
 
-
-            <ul class="list">
-                <li>
-                    <a href="#top">Back to Top<i class="fas fa-arrow-up"></i></a></li
-                </li>
-                <li>
-                    <a href="about.html">About Me</a>
-                </li>
-                <li>
-                    <a href="nisu.html">NISU</a>
-                </li>
-                <li>
-                    <a href="cics.html">CICS</a>
-                </li>
-                <li>
-                    <a href="https://maps.app.goo.gl/hVyqGk3Yy2pGoA3y8">Google Map</a>
-                </li>
-            </ul>
-
-            <p class="copyright">© 2024 CICS - College of Information and Computing Studies</p>
-        </footer>
-        <script>
-            function toggleMenu() {
-                const navbar = document.querySelector('.navbar');
-                navbar.classList.toggle('active');
-            }
-            </script>
-    </body>
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const dropdownToggle = document.getElementById('cicsDropdownToggle');
+            const dropdownMenu = document.getElementById('cicsDropdown');
+    
+            dropdownToggle.addEventListener('click', function(e) {
+                e.preventDefault(); // Prevent the default anchor behavior
+                dropdownMenu.style.display = dropdownMenu.style.display === 'block' ? 'none' : 'block';
+            });
+    
+            // Optional: Close dropdown if clicking outside
+            document.addEventListener('click', function(e) {
+                if (!dropdownToggle.contains(e.target) && !dropdownMenu.contains(e.target)) {
+                    dropdownMenu.style.display = 'none'; // Hide the dropdown
+                }
+            });
+        });
+    </script>
+</body>
 </html>
+
